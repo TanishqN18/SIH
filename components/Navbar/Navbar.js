@@ -5,7 +5,7 @@ const Navbar=()=>{
     return(
         <>
         
-<nav class="bg-[#2B3E50]">
+<nav class="bg-[#172938]">
   <div class=" flex items-center justify-between p-4">
   <a href="" class="flex items-center">
       <Image src='/logo.svg' alt="Pbase" width={60}height={60} />
