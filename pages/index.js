@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { Button } from '@material-tailwind/react';
+
 import Posts from '../components/post/post';
 
 
@@ -91,7 +91,7 @@ export default function Home() {
           
           </div>
 
-          <div className=' rounded-4xl   w-[60%]'>
+          <div className=' rounded-4xl   w-[50%]'>
             {/* <div className="text-white border-2 border-[#2b3e4f] rounded-xl h-[30%] text-4xl  mx-5">
               <a href=''>
               <Image className='fill  w-auto h-full'
