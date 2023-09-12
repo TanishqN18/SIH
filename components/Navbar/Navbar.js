@@ -12,7 +12,7 @@ const Navbar=()=>{
       
   </a>
   <div className=''>
-  <ul className='flex flex-row space-x-8 text-white text-l max-md:hidden'>
+  <ul className='flex flex-row space-x-8 text-white text-xl max-md:hidden'>
     <Link href='/'> 
     <li className='hover:bg-white hover:text-black rounded-full px-3 py-2'>Home</li>
     </Link >
