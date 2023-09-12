@@ -1,11 +1,16 @@
 import React from 'react'
 import Image from 'next/image'
+import { Button } from '@material-tailwind/react';
+import Posts from '../components/post/post';
+
+
+
 
 export default function Home() {
     return (
         <div className="w-screen h-[100vh] overflow-hiddden bg-[#172838]">
       {/* <div className="w-full h-[10%] "></div> */}
-      <div className="md:flex w-screen  h-screen justify-between  h-[90%] px-4">
+      <div className="md:flex w-screen h-screen justify-between  px-4">
           <div className='w-[15%] h-full'>
             <div className='flex flex-col  border-2  rounded-2xl border-[#2b3e4f] bg-[#2b3e4f] p-4'>
               <div className='justify-center align-center'> 
@@ -87,21 +92,40 @@ export default function Home() {
           </div>
 
           <div className=' rounded-4xl   w-[60%]'>
-            <div className="text-white h-[30%] text-4xl bg-black mx-5">
-              Hello
-              {/* <a href=''>
-              <Image className='px-2 w-[80%]'
-                src="/demo.jpg"
-                width={100}
-                height={100}
+            {/* <div className="text-white border-2 border-[#2b3e4f] rounded-xl h-[30%] text-4xl  mx-5">
+              <a href=''>
+              <Image className='fill  w-auto h-full'
+                src="/Main.svg"
+                width={500}
+                height={500}
                 priority 
               />
-              </a> */}
+              </a>
             </div>
-            <div className='rounded-4xl h-[30%] bg-white mx-5 '>
-              comment
+            <div className='rounded-4xl h-[30%] bg-[#2b3e4f] mx-5 '>
+              <p className='pt-4 text-xl text-white text-center border-b-2'>
+              WeatherWise is a user-friendly, cross-platform weather forecasting application that provides real-time weather information to users.
+              This app aims to deliver accurate and up-to-date weather forecasts, 
+              helping users plan their activities and stay prepared for changing weather conditions.
+              </p>
+              <div className='flex flex-row  justify-center'>
+                <Button className='px-4'>
+                  Like
+                </Button>
+                <Button className='px-4'>
+                  Comment
+                </Button>
+                <Button className='px-4'>
+                  Like
+                </Button>
+                <Button className='px-4'>
+                  Like
+                </Button>
+                
+              </div>
             </div>
-            
+             */}
+             <Posts/>
 
           </div>
 
