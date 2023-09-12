@@ -1,0 +1,74 @@
+<div className="bg-[#172838]">
+      <div class="logo">
+        
+        <Image src="/logo.svg" width={100} height={100}/>
+      </div>
+      <div className='flex flex-row'>
+      <div className="flex flex-col">
+      
+      <div class="image-des">
+        <img
+          class="support-technology-error-d"
+          alt=""
+          src="/support-technology-error---deadline-stress-man-customer-service.svg"
+        />
+        <div className='items-center justify-center'>
+        <h1 className="text-xl text-white">
+          Scroll through what projects 
+        </h1>
+        <h1 className='text-xl text-white'>your friends post</h1></div>
+      </div>
+      </div>
+      <div className='flex flex-col'>
+        <Image src='/pbase.svg' width={400} height={50}></Image>
+        <div className='flex  items-center rounded-md border-white border-2 my-10 w-fit p-2'>
+      <img
+          class="flat-color-iconsgoogle"
+          alt=""
+          src="/flatcoloriconsgoogle.svg"
+        />
+        <div className='text-white pl-3'>Sign in With Google</div>
+        </div>
+
+        <div class="sign-in-with">sign In with google</div>
+        <div class="forgot-password">Forgot Password?</div>
+        <div class="dont-have-an-container">
+          <span class="dont-have-an-container1">
+            <span>Don’t have an Account?</span>
+            <span class="create-account"> Create Account </span>
+          </span>
+        </div>
+        <div class="forgot-username">Forgot Username?</div>
+        <h3 class="email-id">Email ID</h3>
+        <h3 class="password">Password</h3>
+        <img
+          class="mdieye-off-outline-icon"
+          alt=""
+          src="/mdieyeoffoutline.svg"
+        />
+
+        <h3 class="or">OR</h3>
+        <div class="sign-in-with1">sign In with Facebook</div>
+        <h1 class="your-pbase-account-container">
+          <span class="dont-have-an-container1">
+            <span class="your">Your </span>
+            <span class="pbase1">Pbase</span>
+            <span class="your"> Account</span>
+          </span>
+        </h1>
+        <input class="login-frame-child" type="text" />
+
+        <input class="login-frame-item" type="text" />
+
+        <input class="login-frame-inner" type="text" />
+
+        <div class="line-div"></div>
+        <h1 class="log-in">Log In</h1>
+        <div class="login-frame-child1"></div>
+        <img
+          class="logosfacebook-icon"
+          alt=""
+          src="/logosfacebook.svg"
+        /></div>
+      </div>
+    </div>
