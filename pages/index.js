@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-
 import Posts from '../components/post/post';
 
 
@@ -8,7 +7,7 @@ import Posts from '../components/post/post';
 
 export default function Home() {
     return (
-        <div className="w-screen h-[100vh] overflow-hiddden bg-[#172838]">
+        <div className=" h-[100vh] overflow-hiddden bg-[#172838]">
       {/* <div className="w-full h-[10%] "></div> */}
       <div className="md:flex w-screen h-screen justify-between  px-4">
           <div className='w-[15%] h-full'>
@@ -91,7 +90,7 @@ export default function Home() {
           
           </div>
 
-          <div className=' rounded-4xl   w-[50%]'>
+          <div className=' rounded-4xl   w-[52%]'>
             {/* <div className="text-white border-2 border-[#2b3e4f] rounded-xl h-[30%] text-4xl  mx-5">
               <a href=''>
               <Image className='fill  w-auto h-full'
@@ -126,6 +125,51 @@ export default function Home() {
             </div>
              */}
              <Posts/>
+             <div className='flex border-t-2 h-[10%] bg-[#2b3e4f] rounded-b-xl border-white flex-row text-white text-bold justify-center'>
+                <button className='mt-4 px-6'>
+                <a >
+                <Image className='px-2'
+                  src="/like.png"
+                  width={62}
+                  height={5}
+                  priority 
+                />
+                </a>
+                </button>
+                <button className='mt-4 px-6'>
+                <a >
+                  <Image className='px-2'
+                    src="/coment.png"
+                    width={55}
+                    height={5}
+                    priority 
+                  />
+                  </a>
+                </button>
+                <button className=' mt-4 px-6'>
+                  <a >
+                <Image className='px-2'
+                  src="/share.png"
+                  width={55}
+                  height={5}
+                  priority 
+                />
+                </a>
+                  
+                </button>
+                <button className='mt-4 px-6'>
+                <a >
+                  <Image className='px-2'
+                    src="/link.png"
+                    width={55}
+                    height={5}
+                    priority 
+                  />
+                  </a>
+               
+                </button>
+                
+              </div>
 
           </div>
 
