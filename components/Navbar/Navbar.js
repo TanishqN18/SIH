@@ -19,7 +19,7 @@ const Navbar=()=>{
     <Link href=''>
     <li className='hover:bg-white hover:text-black rounded-full px-3 py-2'>Explore</li>
     </Link>
-    <Link href='/'>
+    <Link href='http://localhost:3000/postproj'>
     <li className='hover:bg-white hover:text-black rounded-full px-3 py-2'>Post</li>
     </Link>
   </ul>
